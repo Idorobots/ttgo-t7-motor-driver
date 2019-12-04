@@ -151,7 +151,7 @@ U 1 1 5DB9EDC5
 P 7100 5800
 F 0 "J12" H 7180 5792 50  0000 L CNN
 F 1 "RR" H 7180 5701 50  0000 L CNN
-F 2 "Connector_Molex:Molex_PicoBlade_53261-0271_1x02-1MP_P1.25mm_Horizontal" H 7100 5800 50  0001 C CNN
+F 2 "Connector_Molex:Molex_PicoBlade_53398-0271_1x02-1MP_P1.25mm_Vertical" H 7100 5800 50  0001 C CNN
 F 3 "~" H 7100 5800 50  0001 C CNN
 	1    7100 5800
 	1    0    0    -1  
@@ -162,7 +162,7 @@ U 1 1 5DB9FC06
 P 7100 4700
 F 0 "J9" H 7180 4692 50  0000 L CNN
 F 1 "FR" H 7180 4601 50  0000 L CNN
-F 2 "Connector_Molex:Molex_PicoBlade_53261-0271_1x02-1MP_P1.25mm_Horizontal" H 7100 4700 50  0001 C CNN
+F 2 "Connector_Molex:Molex_PicoBlade_53398-0271_1x02-1MP_P1.25mm_Vertical" H 7100 4700 50  0001 C CNN
 F 3 "~" H 7100 4700 50  0001 C CNN
 	1    7100 4700
 	1    0    0    -1  
@@ -173,7 +173,7 @@ U 1 1 5DBA038C
 P 7100 5250
 F 0 "J11" H 7180 5242 50  0000 L CNN
 F 1 "RL" H 7180 5151 50  0000 L CNN
-F 2 "Connector_Molex:Molex_PicoBlade_53261-0271_1x02-1MP_P1.25mm_Horizontal" H 7100 5250 50  0001 C CNN
+F 2 "Connector_Molex:Molex_PicoBlade_53398-0271_1x02-1MP_P1.25mm_Vertical" H 7100 5250 50  0001 C CNN
 F 3 "~" H 7100 5250 50  0001 C CNN
 	1    7100 5250
 	1    0    0    -1  
@@ -184,7 +184,7 @@ U 1 1 5DBA09A1
 P 7100 4150
 F 0 "J8" H 7180 4142 50  0000 L CNN
 F 1 "FL" H 7180 4051 50  0000 L CNN
-F 2 "Connector_Molex:Molex_PicoBlade_53261-0271_1x02-1MP_P1.25mm_Horizontal" H 7100 4150 50  0001 C CNN
+F 2 "Connector_Molex:Molex_PicoBlade_53398-0271_1x02-1MP_P1.25mm_Vertical" H 7100 4150 50  0001 C CNN
 F 3 "~" H 7100 4150 50  0001 C CNN
 	1    7100 4150
 	1    0    0    -1  

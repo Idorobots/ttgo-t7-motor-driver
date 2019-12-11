@@ -773,8 +773,6 @@ Wire Wire Line
 	9000 4350 9000 4200
 Text Label 2500 3350 0    50   ~ 0
 LED
-Wire Wire Line
-	2400 4500 2500 4500
 NoConn ~ 2400 4800
 NoConn ~ 2400 4900
 NoConn ~ 2400 5000
@@ -842,4 +840,5 @@ Wire Wire Line
 	1900 5100 1800 5100
 Wire Wire Line
 	1800 5100 1800 4950
+NoConn ~ 2400 4500
 $EndSCHEMATC

@@ -523,9 +523,9 @@ F 3 "http://www.vishay.com/docs/85557/ll4148.pdf" H 6550 4200 50  0001 C CNN
 $EndComp
 Text Label 2500 4600 0    50   ~ 0
 FL
-Text Label 2500 3350 0    50   ~ 0
-ServoA
 Text Label 2500 3450 0    50   ~ 0
+ServoA
+Text Label 2500 3550 0    50   ~ 0
 ServoB
 Wire Wire Line
 	2400 3350 2500 3350
@@ -739,7 +739,7 @@ Wire Wire Line
 	6650 2550 6400 2550
 Wire Wire Line
 	6650 1750 6400 1750
-Text Label 2500 3550 0    50   ~ 0
+Text Label 2500 3650 0    50   ~ 0
 ServoC
 Wire Wire Line
 	2400 3550 2500 3550
@@ -776,17 +776,6 @@ F 3 "" H 9000 3350 50  0001 C CNN
 	1    9000 3350
 	1    0    0    -1  
 $EndComp
-$Comp
-L power:GND #PWR017
-U 1 1 5E0E8C25
-P 9000 5150
-F 0 "#PWR017" H 9000 4900 50  0001 C CNN
-F 1 "GND" H 9005 4977 50  0000 C CNN
-F 2 "" H 9000 5150 50  0001 C CNN
-F 3 "" H 9000 5150 50  0001 C CNN
-	1    9000 5150
-	1    0    0    -1  
-$EndComp
 Text Label 9000 4200 2    50   ~ 0
 LED
 Wire Wire Line
@@ -795,7 +784,7 @@ Wire Wire Line
 	9000 4750 9000 4650
 Wire Wire Line
 	9000 4350 9000 4200
-Text Label 1800 3350 2    50   ~ 0
+Text Label 2500 3350 0    50   ~ 0
 LED
 Wire Wire Line
 	2400 4500 2500 4500
@@ -820,11 +809,23 @@ NoConn ~ 1900 3450
 NoConn ~ 1900 3250
 NoConn ~ 1900 3150
 NoConn ~ 2400 3150
-NoConn ~ 2400 3650
 NoConn ~ 2400 3750
 NoConn ~ 2400 3850
 NoConn ~ 2400 3950
 NoConn ~ 2400 3050
 Wire Wire Line
 	1900 3350 1800 3350
+$Comp
+L power:GND #PWR0101
+U 1 1 5DF1A818
+P 9000 5150
+F 0 "#PWR0101" H 9000 4900 50  0001 C CNN
+F 1 "GND" H 9005 4977 50  0000 C CNN
+F 2 "" H 9000 5150 50  0001 C CNN
+F 3 "" H 9000 5150 50  0001 C CNN
+	1    9000 5150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2400 3650 2500 3650
 $EndSCHEMATC
